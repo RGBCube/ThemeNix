@@ -376,12 +376,28 @@ Here is a minimal usage example:
         {
           home-manager.users.myuser = {
             programs.kitty.settings = with theme.withHashtag; {
-              color0 = base00; # Could also be `background`.
-              color1 = base01;
-              # ...
-              color10 = baseA;
-              color11 = baseB;
-              # ...
+              color0  = base00;
+              color1  = base08;
+              color2  = base0B;
+              color3  = base0A;
+              color4  = base0D;
+              color5  = base0E;
+              color6  = base0C;
+              color7  = base05;
+              color8  = base03;
+              color9  = base08;
+              color10 = base0B;
+              color11 = base0A;
+              color12 = base0D;
+              color13 = base0E;
+              color14 = base0C;
+              color15 = base07;
+              color16 = base09;
+              color17 = base0F;
+              color18 = base01;
+              color19 = base02;
+              color20 = base04;
+              color21 = base06;
             };
 
             # Using templates??? Wow, that's so cool!
