@@ -59,12 +59,12 @@
     enrichedThemeOnlyColors = builtins.removeAttrs enrichedTheme [ "name" "author" "slug" ];
 
     enrichedThemeHelpers = {
-      with0x = builtins.mapAttrs (_: value: "0x" + value) (enrichedTheme // enrichedThemeOnlyColors);
-      withHashtag = builtins.mapAttrs (_: value: "#" + value) (enrichedTheme // enrichedThemeOnlyColors);
+      with0x = enrichedTheme // (builtins.mapAttrs (_: value: "0x" + value) enrichedThemeOnlyColors);
+      withHashtag = enrichedTheme // (builtins.mapAttrs (_: value: "#" + value) enrichedThemeOnlyColors);
     };
 
     templates = {
-      tmTheme = (import ./templates/tmTheme.nix) theme;
+      tmTheme = (import ./templates/tmTheme.nix) (enrichedTheme // enrichedThemeHelpers);
     };
   in enrichedTheme // enrichedThemeHelpers // templates) (import ./themes.nix);
 }
