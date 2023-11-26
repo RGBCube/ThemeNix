@@ -3,7 +3,6 @@
 !themes/
 
 !.gitignore
-!flake.lock
 
 !*.md
 !*.nix
