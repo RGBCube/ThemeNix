@@ -283,7 +283,7 @@ If you don't want to use the base16 color names,
 there are also aliases that point to the base16 color.
 
 Themes also have templates, which generate templates with the color scheme.
-You can use a template by doing `themes.gruvboxbox-dark-hard.tmTheme.`
+You can use a template by doing `themes.gruvboxbox-dark-hard.<template-name>`.
 
 <details>
 <summary>All templates</summary>
