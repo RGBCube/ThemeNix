@@ -1,5 +1,4 @@
 {
-  slug   = "3024";
   name   = "3024";
   author = "Jan T. Sott (http://github.com/idleberg)";
   base00 = "090300";

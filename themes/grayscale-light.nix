@@ -1,5 +1,4 @@
 {
-  slug   = "grayscale-light";
   name   = "Grayscale Light";
   author = "Alexandre Gavioli (https://github.com/Alexx2/)";
   base00 = "F7F7F7";

@@ -1,5 +1,4 @@
 {
-  slug   = "irblack";
   name   = "IR Black";
   author = "Timothée Poisot (http://timotheepoisot.fr)";
   base00 = "000000";

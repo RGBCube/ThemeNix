@@ -1,5 +1,4 @@
 {
-  slug   = "shadesmear-dark";
   name   = "ShadeSmear Dark";
   author = "Kyle Giammarco (http://kyle.giammar.co)";
   base00 = "232323";

@@ -1,5 +1,4 @@
 {
-  slug   = "helios";
   name   = "Helios";
   author = "Alex Meyer (https://github.com/reyemxela)";
   base00 = "1D2021";

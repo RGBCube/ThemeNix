@@ -1,5 +1,4 @@
 {
-  slug   = "da-one-paper";
   name   = "Da One Paper";
   author = "NNB (https://github.com/NNBnh)";
   base00 = "FAF0DC";

@@ -1,5 +1,4 @@
 {
-  slug   = "shades-of-purple";
   name   = "Shades of Purple";
   author = "Iolar Demartini Junior (http://github.com/demartini) based on Shades of Purple Theme (https://github.com/ahmadawais/shades-of-purple-vscode).";
   base00 = "1E1E3F";

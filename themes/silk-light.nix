@@ -1,5 +1,4 @@
 {
-  slug   = "silk-light";
   name   = "Silk Light";
   author = "Gabriel Fontes (https://github.com/Misterio77)";
   base00 = "E9F1EF";

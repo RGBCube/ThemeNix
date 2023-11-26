@@ -1,5 +1,4 @@
 {
-  slug   = "ocean";
   name   = "Ocean";
   author = "Chris Kempson (http://chriskempson.com)";
   base00 = "2B303B";

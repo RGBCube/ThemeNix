@@ -1,7 +1,7 @@
 {
   description = "Theme your NixOS configuration consistently.";
 
-  outputs = { self }: builtins.mapAttrs (_: theme: let
+  outputs = { self }: builtins.mapAttrs (slug: theme: let
     themeDescriptiveNames = with theme; {
       background                        = base00;
       lighterBackground                 = base01;
@@ -50,17 +50,21 @@
       openingClosingEmbeddedLanguageTag = base0F;
     };
 
-    enrichedTheme = theme // themeDescriptiveNames;
-
-    enrichedThemeOnlyColors = builtins.removeAttrs enrichedTheme [ "name" "author" ];
-
-    enrichedThemeHelpers = {
-      with0x = builtins.mapAttrs (_: value: "0x" + value) enrichedThemeOnlyColors;
-      withHashtag = builtins.mapAttrs (_: value: "#" + value) enrichedThemeOnlyColors;
+    themeWithSlug = theme // {
+      inherit slug;
     };
 
-    templates = builtins.mapAttrs (_: value: {
-      tmTheme = (import ./templates/tmTheme.nix) value;
-    }) enrichedTheme;
+    enrichedTheme = themeWithSlug // themeDescriptiveNames;
+
+    enrichedThemeOnlyColors = builtins.removeAttrs enrichedTheme [ "name" "author" "slug" ];
+
+    enrichedThemeHelpers = {
+      with0x = builtins.mapAttrs (_: value: "0x" + value) (enrichedTheme // enrichedThemeOnlyColors);
+      withHashtag = builtins.mapAttrs (_: value: "#" + value) (enrichedTheme // enrichedThemeOnlyColors);
+    };
+
+    templates = {
+      tmTheme = (import ./templates/tmTheme.nix) theme;
+    };
   in enrichedTheme // enrichedThemeHelpers // templates) (import ./themes.nix);
 }

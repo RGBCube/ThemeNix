@@ -1,5 +1,4 @@
 {
-  slug   = "black-metal-immortal";
   name   = "Black Metal (Immortal)";
   author = "metalelf0 (https://github.com/metalelf0)";
   base00 = "000000";

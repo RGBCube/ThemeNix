@@ -1,5 +1,4 @@
 {
-  slug   = "codeschool";
   name   = "Codeschool";
   author = "blockloop";
   base00 = "232C31";

@@ -1,5 +1,4 @@
 {
-  slug   = "brogrammer";
   name   = "Brogrammer";
   author = "Vik Ramanujam (http://github.com/piggyslasher)";
   base00 = "1F1F1F";

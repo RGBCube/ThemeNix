@@ -1,5 +1,4 @@
 {
-  slug   = "gruvbox-light-hard";
   name   = "Gruvbox light; hard";
   author = "Dawid Kurek (dawikur@gmail.com); morhetz (https://github.com/morhetz/gruvbox)";
   base00 = "F9F5D7";

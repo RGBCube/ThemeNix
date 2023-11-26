@@ -1,5 +1,4 @@
 {
-  slug   = "atelier-dune";
   name   = "Atelier Dune";
   author = "Bram de Haan (http://atelierbramdehaan.nl)";
   base00 = "20201D";

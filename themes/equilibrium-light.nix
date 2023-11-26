@@ -1,5 +1,4 @@
 {
-  slug   = "equilibrium-light";
   name   = "Equilibrium Light";
   author = "Carlo Abelli";
   base00 = "F5F0E7";

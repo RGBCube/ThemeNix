@@ -1,5 +1,4 @@
 {
-  slug   = "nord";
   name   = "Nord";
   author = "arcticicestudio";
   base00 = "2E3440";

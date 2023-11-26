@@ -1,5 +1,4 @@
 {
-  slug   = "material";
   name   = "Material";
   author = "Nate Peterson";
   base00 = "263238";

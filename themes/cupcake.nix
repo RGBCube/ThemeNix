@@ -1,5 +1,4 @@
 {
-  slug   = "cupcake";
   name   = "Cupcake";
   author = "Chris Kempson (http://chriskempson.com)";
   base00 = "FBF1F2";

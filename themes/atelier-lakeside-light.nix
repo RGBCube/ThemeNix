@@ -1,5 +1,4 @@
 {
-  slug   = "atelier-lakeside-light";
   name   = "Atelier Lakeside Light";
   author = "Bram de Haan (http://atelierbramdehaan.nl)";
   base00 = "EBF8FF";

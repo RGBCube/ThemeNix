@@ -1,5 +1,4 @@
 {
-  slug   = "windows-highcontrast";
   name   = "Windows High Contrast";
   author = "Fergus Collins (https://github.com/C-Fergus)";
   base00 = "000000";

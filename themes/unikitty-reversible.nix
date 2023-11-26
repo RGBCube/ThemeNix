@@ -1,5 +1,4 @@
 {
-  slug   = "unikitty-reversible";
   name   = "Unikitty Reversible";
   author = "Josh W Lewis (@joshwlewis)";
   base00 = "2E2A31";

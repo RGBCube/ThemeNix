@@ -1,5 +1,4 @@
 {
-  slug   = "colors";
   name   = "Colors";
   author = "mrmrs (http://clrs.cc)";
   base00 = "111111";

@@ -1,5 +1,4 @@
 {
-  slug   = "apathy";
   name   = "Apathy";
   author = "Jannik Siebert (https://github.com/janniks)";
   base00 = "031A16";

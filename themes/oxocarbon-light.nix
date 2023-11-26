@@ -1,5 +1,4 @@
 {
-  slug   = "oxocarbon-light";
   name   = "Oxocarbon Light";
   author = "shaunsingh/IBM";
   base00 = "F2F4F8";

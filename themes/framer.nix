@@ -1,5 +1,4 @@
 {
-  slug   = "framer";
   name   = "Framer";
   author = "Framer (Maintained by Jesse Hoyos)";
   base00 = "181818";

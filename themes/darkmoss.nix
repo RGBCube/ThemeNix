@@ -1,5 +1,4 @@
 {
-  slug   = "darkmoss";
   name   = "darkmoss";
   author = "Gabriel Avanzi (https://github.com/avanzzzi)";
   base00 = "171E1F";

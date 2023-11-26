@@ -1,5 +1,4 @@
 {
-  slug   = "eighties";
   name   = "Eighties";
   author = "Chris Kempson (http://chriskempson.com)";
   base00 = "2D2D2D";

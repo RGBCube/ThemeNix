@@ -1,5 +1,4 @@
 {
-  slug   = "espresso";
   name   = "Espresso";
   author = "Unknown. Maintained by Alex Mirrington (https://github.com/alexmirrington)";
   base00 = "2D2D2D";

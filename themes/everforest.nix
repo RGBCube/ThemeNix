@@ -1,5 +1,4 @@
 {
-  slug   = "everforest";
   name   = "Everforest";
   author = "Sainnhe Park (https://github.com/sainnhe)";
   base00 = "2F383E";

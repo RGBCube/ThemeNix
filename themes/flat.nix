@@ -1,5 +1,4 @@
 {
-  slug   = "flat";
   name   = "Flat";
   author = "Chris Kempson (http://chriskempson.com)";
   base00 = "2C3E50";

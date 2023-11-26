@@ -1,5 +1,4 @@
 {
-  slug   = "tokyodark-terminal";
   name   = "Tokyodark Terminal";
   author = "Tiagovla (https://github.com/tiagovla/)";
   base00 = "11121D";

@@ -1,5 +1,4 @@
 {
-  slug   = "atelier-forest-light";
   name   = "Atelier Forest Light";
   author = "Bram de Haan (http://atelierbramdehaan.nl)";
   base00 = "F1EFEE";

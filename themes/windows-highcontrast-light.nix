@@ -1,5 +1,4 @@
 {
-  slug   = "windows-highcontrast-light";
   name   = "Windows High Contrast Light";
   author = "Fergus Collins (https://github.com/C-Fergus)";
   base00 = "FCFCFC";

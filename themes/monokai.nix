@@ -1,5 +1,4 @@
 {
-  slug   = "monokai";
   name   = "Monokai";
   author = "Wimer Hazenberg (http://www.monokai.nl)";
   base00 = "272822";

@@ -1,5 +1,4 @@
 {
-  slug   = "catppuccin-latte";
   name   = "Catppuccin Latte";
   author = "https://github.com/catppuccin/catppuccin";
   base00 = "EFF1F5";

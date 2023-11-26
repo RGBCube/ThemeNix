@@ -1,5 +1,4 @@
 {
-  slug   = "porple";
   name   = "Porple";
   author = "Niek den Breeje (https://github.com/AuditeMarlow)";
   base00 = "292C36";

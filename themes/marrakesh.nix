@@ -1,5 +1,4 @@
 {
-  slug   = "marrakesh";
   name   = "Marrakesh";
   author = "Alexandre Gavioli (http://github.com/Alexx2/)";
   base00 = "201602";

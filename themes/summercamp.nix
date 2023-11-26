@@ -1,5 +1,4 @@
 {
-  slug   = "summercamp";
   name   = "summercamp";
   author = "zoe firi (zoefiri.github.io)";
   base00 = "1C1810";

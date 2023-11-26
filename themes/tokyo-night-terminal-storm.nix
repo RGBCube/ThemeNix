@@ -1,5 +1,4 @@
 {
-  slug   = "tokyo-night-terminal-storm";
   name   = "Tokyo Night Terminal Storm";
   author = "Michaël Ball";
   base00 = "24283B";

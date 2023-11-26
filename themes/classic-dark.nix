@@ -1,5 +1,4 @@
 {
-  slug   = "classic-dark";
   name   = "Classic Dark";
   author = "Jason Heeris (http://heeris.id.au)";
   base00 = "151515";

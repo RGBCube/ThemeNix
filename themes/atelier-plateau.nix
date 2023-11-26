@@ -1,5 +1,4 @@
 {
-  slug   = "atelier-plateau";
   name   = "Atelier Plateau";
   author = "Bram de Haan (http://atelierbramdehaan.nl)";
   base00 = "1B1818";

@@ -1,5 +1,4 @@
 {
-  slug   = "macintosh";
   name   = "Macintosh";
   author = "Rebecca Bettencourt (http://www.kreativekorp.com)";
   base00 = "000000";

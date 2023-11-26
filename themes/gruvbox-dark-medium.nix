@@ -1,5 +1,4 @@
 {
-  slug   = "gruvbox-dark-medium";
   name   = "Gruvbox dark; medium";
   author = "Dawid Kurek (dawikur@gmail.com); morhetz (https://github.com/morhetz/gruvbox)";
   base00 = "282828";

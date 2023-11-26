@@ -1,5 +1,4 @@
 {
-  slug   = "fruit-soda";
   name   = "Fruit Soda";
   author = "jozip";
   base00 = "F1ECF1";

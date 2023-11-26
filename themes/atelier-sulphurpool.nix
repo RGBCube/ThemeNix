@@ -1,5 +1,4 @@
 {
-  slug   = "atelier-sulphurpool";
   name   = "Atelier Sulphurpool";
   author = "Bram de Haan (http://atelierbramdehaan.nl)";
   base00 = "202746";

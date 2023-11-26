@@ -1,5 +1,4 @@
 {
-  slug   = "brushtrees-dark";
   name   = "Brush Trees Dark";
   author = "Abraham White <abelincoln.white@gmail.com>";
   base00 = "485867";

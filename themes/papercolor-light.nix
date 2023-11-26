@@ -1,5 +1,4 @@
 {
-  slug   = "papercolor-light";
   name   = "PaperColor Light";
   author = "Jon Leopard (http://github.com/jonleopard) based on PaperColor Theme (https://github.com/NLKNguyen/papercolor-theme)";
   base00 = "EEEEEE";

@@ -1,5 +1,4 @@
 {
-  slug   = "greenscreen";
   name   = "Green Screen";
   author = "Chris Kempson (http://chriskempson.com)";
   base00 = "001100";

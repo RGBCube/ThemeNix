@@ -1,5 +1,4 @@
 {
-  slug   = "pandora";
   name   = "pandora";
   author = "Cassandra Fox";
   base00 = "131213";

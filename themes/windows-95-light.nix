@@ -1,5 +1,4 @@
 {
-  slug   = "windows-95-light";
   name   = "Windows 95 Light";
   author = "Fergus Collins (https://github.com/C-Fergus)";
   base00 = "FCFCFC";

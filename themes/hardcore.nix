@@ -1,5 +1,4 @@
 {
-  slug   = "hardcore";
   name   = "Hardcore";
   author = "Chris Caller";
   base00 = "212121";

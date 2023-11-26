@@ -1,5 +1,4 @@
 {
-  slug   = "primer-dark";
   name   = "Primer Dark";
   author = "Jimmy Lin";
   base00 = "010409";

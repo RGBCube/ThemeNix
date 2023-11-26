@@ -1,5 +1,4 @@
 {
-  slug   = "kimber";
   name   = "Kimber";
   author = "Mishka Nguyen (https://github.com/akhsiM)";
   base00 = "222222";

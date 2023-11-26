@@ -1,5 +1,4 @@
 {
-  slug   = "darktooth";
   name   = "Darktooth";
   author = "Jason Milkins (https://github.com/jasonm23)";
   base00 = "1D2021";

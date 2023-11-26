@@ -1,5 +1,4 @@
 {
-  slug   = "nebula";
   name   = "Nebula";
   author = "Gabriel Fontes (https://github.com/Misterio77)";
   base00 = "22273B";

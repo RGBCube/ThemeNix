@@ -1,5 +1,4 @@
 {
-  slug   = "circus";
   name   = "Circus";
   author = "Stephan Boyer (https://github.com/stepchowfun) and Esther Wang (https://github.com/ewang12)";
   base00 = "191919";

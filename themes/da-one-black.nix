@@ -1,5 +1,4 @@
 {
-  slug   = "da-one-black";
   name   = "Da One Black";
   author = "NNB (https://github.com/NNBnh)";
   base00 = "000000";

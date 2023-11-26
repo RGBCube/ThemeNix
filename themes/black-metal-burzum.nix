@@ -1,5 +1,4 @@
 {
-  slug   = "black-metal-burzum";
   name   = "Black Metal (Burzum)";
   author = "metalelf0 (https://github.com/metalelf0)";
   base00 = "000000";

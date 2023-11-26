@@ -1,5 +1,4 @@
 {
-  slug   = "shapeshifter";
   name   = "Shapeshifter";
   author = "Tyler Benziger (http://tybenz.com)";
   base00 = "F9F9F9";

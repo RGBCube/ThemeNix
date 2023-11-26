@@ -1,5 +1,4 @@
 {
-  slug   = "harmonic16-light";
   name   = "Harmonic16 Light";
   author = "Jannik Siebert (https://github.com/janniks)";
   base00 = "F7F9FB";

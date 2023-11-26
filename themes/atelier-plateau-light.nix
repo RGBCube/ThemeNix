@@ -1,5 +1,4 @@
 {
-  slug   = "atelier-plateau-light";
   name   = "Atelier Plateau Light";
   author = "Bram de Haan (http://atelierbramdehaan.nl)";
   base00 = "F4ECEC";

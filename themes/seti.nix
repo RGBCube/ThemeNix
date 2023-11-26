@@ -1,5 +1,4 @@
 {
-  slug   = "seti";
   name   = "Seti UI";
   author = "";
   base00 = "151718";

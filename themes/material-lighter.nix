@@ -1,5 +1,4 @@
 {
-  slug   = "material-lighter";
   name   = "Material Lighter";
   author = "Nate Peterson";
   base00 = "FAFAFA";

@@ -1,5 +1,4 @@
 {
-  slug   = "horizon-terminal-light";
   name   = "Horizon Terminal Light";
   author = "Michaël Ball (http://github.com/michael-ball/)";
   base00 = "FDF0ED";

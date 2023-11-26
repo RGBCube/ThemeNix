@@ -1,5 +1,4 @@
 {
-  slug   = "everforest-dark-hard";
   name   = "Everforest Dark Hard";
   author = "Oskar Liew (https://github.com/OskarLiew)";
   base00 = "272E33";

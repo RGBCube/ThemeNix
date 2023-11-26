@@ -1,5 +1,4 @@
 {
-  slug   = "mellow-purple";
   name   = "Mellow Purple";
   author = "gidsi";
   base00 = "1E0528";
