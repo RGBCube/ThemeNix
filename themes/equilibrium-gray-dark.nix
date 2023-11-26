@@ -1,4 +1,5 @@
 {
+  slug   = "themes/equilibrium-gray-dark";
   name   = "Equilibrium Gray Dark";
   author = "Carlo Abelli";
   base00 = "111111";

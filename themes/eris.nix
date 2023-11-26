@@ -1,4 +1,5 @@
 {
+  slug   = "themes/eris";
   name   = "eris";
   author = "ed (https://codeberg.org/ed)";
   base00 = "0A0920";

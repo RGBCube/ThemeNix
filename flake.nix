@@ -58,5 +58,9 @@
       with0x = builtins.mapAttrs (_: value: "0x" + value) enrichedThemeOnlyColors;
       withHashtag = builtins.mapAttrs (_: value: "#" + value) enrichedThemeOnlyColors;
     };
-  in enrichedTheme // enrichedThemeHelpers) (import ./themes.nix);
+
+    templates = builtins.mapAttrs (_: value: {
+      tmTheme = (import ./templates/tmTheme.nix) value;
+    }) enrichedTheme;
+  in enrichedTheme // enrichedThemeHelpers // templates) (import ./themes.nix);
 }

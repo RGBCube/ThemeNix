@@ -1,4 +1,5 @@
 {
+  slug   = "themes/nova";
   name   = "Nova";
   author = "George Essig (https://github.com/gessig); Trevor D. Miller (https://trevordmiller.com)",
   base00 = "3C4C55";

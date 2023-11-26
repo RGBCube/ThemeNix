@@ -1,4 +1,5 @@
 {
+  slug   = "themes/summerfruit-dark";
   name   = "Summerfruit Dark";
   author = "Christopher Corley (http://christop.club/)";
   base00 = "151515";

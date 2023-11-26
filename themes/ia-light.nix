@@ -1,4 +1,5 @@
 {
+  slug   = "themes/ia-light";
   name   = "iA Light";
   author = "iA Inc. (modified by aramisgithub)";
   base00 = "F6F6F6";

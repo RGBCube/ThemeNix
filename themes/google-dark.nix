@@ -1,4 +1,5 @@
 {
+  slug   = "themes/google-dark";
   name   = "Google Dark";
   author = "Seth Wright (http://sethawright.com)";
   base00 = "1D1F21";

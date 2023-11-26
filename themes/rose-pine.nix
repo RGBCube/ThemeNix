@@ -1,4 +1,5 @@
 {
+  slug   = "themes/rose-pine";
   name   = "Rosé Pine";
   author = "Emilia Dunfelt <edun@dunfelt.se>";
   base00 = "191724";

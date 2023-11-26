@@ -1,4 +1,5 @@
 {
+  slug   = "themes/mexico-light";
   name   = "Mexico Light";
   author = "Sheldon Johnson";
   base00 = "F8F8F8";

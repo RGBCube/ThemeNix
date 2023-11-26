@@ -1,4 +1,5 @@
 {
+  slug   = "themes/dracula";
   name   = "Dracula";
   author = "Mike Barkmin (http://github.com/mikebarkmin) based on Dracula Theme (http://github.com/dracula)";
   base00 = "282936";

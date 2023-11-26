@@ -1,4 +1,5 @@
 {
+  slug   = "themes/windows-nt";
   name   = "Windows NT";
   author = "Fergus Collins (https://github.com/C-Fergus)";
   base00 = "000000";

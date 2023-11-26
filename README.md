@@ -8,6 +8,7 @@ Firstly, add the flake to your inputs.
 You don't need to pin anything since it doesn't depend on anything.
 
 Then you can use any theme you'd like by selecting an attribute, like `themes.gruvbox-dark-hard`.
+Then you can select a color by using base16 attributes, like `themes.gruvbox-dark-hard.base0A`, `base00`, `base06` etc.
 
 <details>
 <summary>All themes</summary>
@@ -267,7 +268,7 @@ zenburn
 ```
 </details>
 
-Themes have 2 special properties, which are `with0x` and `withHashtag`.
+Themes have 2 special color properties, which are `with0x` and `withHashtag`.
 This will prefix every color with the thing you selected.
 
 ```nix
@@ -280,6 +281,17 @@ in {}
 
 If you don't want to use the base16 color names,
 there are also aliases that point to the base16 color.
+
+Themes also have templates, which generate templates with the color scheme.
+You can use a template by doing `themes.gruvboxbox-dark-hard.tmTheme.`
+
+<details>
+<summary>All templates</summary>
+
+```
+tmTheme
+```
+</details>
 
 <details>
 <summary>All aliases</summary>

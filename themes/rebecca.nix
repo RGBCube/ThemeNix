@@ -1,4 +1,5 @@
 {
+  slug   = "themes/rebecca";
   name   = "Rebecca";
   author = "Victor Borja (http://github.com/vic) based on Rebecca Theme (http://github.com/vic/rebecca-theme)";
   base00 = "292A44";

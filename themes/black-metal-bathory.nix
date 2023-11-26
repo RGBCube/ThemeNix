@@ -1,4 +1,5 @@
 {
+  slug   = "themes/black-metal-bathory";
   name   = "Black Metal (Bathory)";
   author = "metalelf0 (https://github.com/metalelf0)";
   base00 = "000000";

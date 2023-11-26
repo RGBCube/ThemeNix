@@ -1,4 +1,5 @@
 {
+  slug   = "themes/material-darker";
   name   = "Material Darker";
   author = "Nate Peterson";
   base00 = "212121";

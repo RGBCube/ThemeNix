@@ -1,4 +1,5 @@
 {
+  slug   = "themes/evenok-dark";
   name   = "Evenok Dark";
   author = "Mekeor Melire";
   base00 = "000000";

@@ -1,4 +1,5 @@
 {
+  slug   = "themes/caroline";
   name   = "caroline";
   author = "ed (https://codeberg.org/ed)";
   base00 = "1C1213";

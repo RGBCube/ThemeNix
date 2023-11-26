@@ -1,4 +1,5 @@
 {
+  slug   = "themes/solarized-light";
   name   = "Solarized Light";
   author = "Ethan Schoonover (modified by aramisgithub)";
   base00 = "FDF6E3";

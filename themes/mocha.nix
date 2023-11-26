@@ -1,4 +1,5 @@
 {
+  slug   = "themes/mocha";
   name   = "Mocha";
   author = "Chris Kempson (http://chriskempson.com)";
   base00 = "3B3228";

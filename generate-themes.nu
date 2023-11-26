@@ -24,6 +24,7 @@ def theme-to-nix [
     } else {
       $line
       | str replace "scheme" "name  "
+      | str replace "slug" "slug  "
       | str replace '"' ""
       | str replace '"' ""
       | str replace ":" " ="
@@ -60,11 +61,11 @@ def main [] {
   ls base16-schemes
     | filter { ($in.name | str ends-with ".yml") or ($in.name | str ends-with ".yaml") }
     | each { |it|
-      let new_path = "themes/" + ($it.name | path basename | split row "." | first) + ".nix"
+      let new_path = "themes/" + ($it.name | path basename | split row "." | first)
 
       echo $"converting ($it.name) to ($new_path)..."
 
-      theme-to-nix (open $it.name) | save --force $new_path
+      theme-to-nix ({ slug: ($new_path | split row "/" | last) } | merge (open $it.name)) | save --force ($new_path + ".nix")
     }
 
   generate-valid-themes

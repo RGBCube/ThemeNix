@@ -1,4 +1,5 @@
 {
+  slug   = "themes/pop";
   name   = "Pop";
   author = "Chris Kempson (http://chriskempson.com)";
   base00 = "000000";

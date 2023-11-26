@@ -1,4 +1,5 @@
 {
+  slug   = "themes/selenized-white";
   name   = "selenized-white";
   author = "Jan Warchol (https://github.com/jan-warchol/selenized) / adapted to base16 by ali";
   base00 = "FFFFFF";

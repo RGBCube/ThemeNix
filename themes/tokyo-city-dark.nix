@@ -1,4 +1,5 @@
 {
+  slug   = "themes/tokyo-city-dark";
   name   = "Tokyo City Dark";
   author = "Michaël Ball";
   base00 = "171D23";

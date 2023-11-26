@@ -1,4 +1,5 @@
 {
+  slug   = "themes/summerfruit-light";
   name   = "Summerfruit Light";
   author = "Christopher Corley (http://christop.club/)";
   base00 = "FFFFFF";

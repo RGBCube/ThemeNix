@@ -1,4 +1,5 @@
 {
+  slug   = "themes/synth-midnight-light";
   name   = "Synth Midnight Terminal Light";
   author = "Michaël Ball (http://github.com/michael-ball/)";
   base00 = "DDDFE0";

@@ -1,4 +1,5 @@
 {
+  slug   = "themes/harmonic16-dark";
   name   = "Harmonic16 Dark";
   author = "Jannik Siebert (https://github.com/janniks)";
   base00 = "0B1C2C";

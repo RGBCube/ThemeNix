@@ -1,4 +1,5 @@
 {
+  slug   = "themes/sakura";
   name   = "Sakura";
   author = "Misterio77 (http://github.com/Misterio77)";
   base00 = "FEEDF3";

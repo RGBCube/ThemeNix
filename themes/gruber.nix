@@ -1,4 +1,5 @@
 {
+  slug   = "themes/gruber";
   name   = "Gruber";
   author = "Patel; Nimai <nimai.m.patel@gmail.com>, colors from www.github.com/rexim/gruber-darker-theme",
   base00 = "181818";

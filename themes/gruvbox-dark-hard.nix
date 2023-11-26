@@ -1,4 +1,5 @@
 {
+  slug   = "themes/gruvbox-dark-hard";
   name   = "Gruvbox dark; hard",
   author = "Dawid Kurek (dawikur@gmail.com); morhetz (https://github.com/morhetz/gruvbox)",
   base00 = "1D2021";

@@ -1,4 +1,5 @@
 {
+  slug   = "themes/blueish";
   name   = "Blueish";
   author = "Ben Mayoras";
   base00 = "182430";

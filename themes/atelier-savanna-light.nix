@@ -1,4 +1,5 @@
 {
+  slug   = "themes/atelier-savanna-light";
   name   = "Atelier Savanna Light";
   author = "Bram de Haan (http://atelierbramdehaan.nl)";
   base00 = "ECF4EE";

@@ -1,4 +1,5 @@
 {
+  slug   = "themes/bespin";
   name   = "Bespin";
   author = "Jan T. Sott";
   base00 = "28211C";

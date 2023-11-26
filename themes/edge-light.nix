@@ -1,4 +1,5 @@
 {
+  slug   = "themes/edge-light";
   name   = "Edge Light";
   author = "cjayross (https://github.com/cjayross)";
   base00 = "FAFAFA";

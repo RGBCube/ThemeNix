@@ -1,4 +1,5 @@
 {
+  slug   = "themes/darkviolet";
   name   = "Dark Violet";
   author = "ruler501 (https://github.com/ruler501/base16-darkviolet)";
   base00 = "000000";

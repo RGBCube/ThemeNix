@@ -1,4 +1,5 @@
 {
+  slug   = "themes/google-light";
   name   = "Google Light";
   author = "Seth Wright (http://sethawright.com)";
   base00 = "FFFFFF";

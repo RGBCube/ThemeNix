@@ -1,4 +1,5 @@
 {
+  slug   = "themes/outrun-dark";
   name   = "Outrun Dark";
   author = "Hugo Delahousse (http://github.com/hugodelahousse/)";
   base00 = "00002A";

@@ -1,4 +1,5 @@
 {
+  slug   = "themes/gruvbox-light-medium";
   name   = "Gruvbox light; medium",
   author = "Dawid Kurek (dawikur@gmail.com); morhetz (https://github.com/morhetz/gruvbox)",
   base00 = "FBF1C7";

@@ -1,4 +1,5 @@
 {
+  slug   = "themes/default-dark";
   name   = "Default Dark";
   author = "Chris Kempson (http://chriskempson.com)";
   base00 = "181818";

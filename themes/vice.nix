@@ -1,4 +1,5 @@
 {
+  slug   = "themes/vice";
   name   = "vice";
   author = "Thomas Leon Highbaugh thighbaugh@zoho.com";
   base00 = "17191E";

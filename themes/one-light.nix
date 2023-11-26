@@ -1,4 +1,5 @@
 {
+  slug   = "themes/one-light";
   name   = "One Light";
   author = "Daniel Pfeifer (http://github.com/purpleKarrot)";
   base00 = "FAFAFA";

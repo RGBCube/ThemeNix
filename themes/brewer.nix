@@ -1,4 +1,5 @@
 {
+  slug   = "themes/brewer";
   name   = "Brewer";
   author = "Timothée Poisot (http://github.com/tpoisot)";
   base00 = "0C0D0E";

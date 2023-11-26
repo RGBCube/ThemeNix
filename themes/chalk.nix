@@ -1,4 +1,5 @@
 {
+  slug   = "themes/chalk";
   name   = "Chalk";
   author = "Chris Kempson (http://chriskempson.com)";
   base00 = "151515";

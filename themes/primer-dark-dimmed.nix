@@ -1,4 +1,5 @@
 {
+  slug   = "themes/primer-dark-dimmed";
   name   = "Primer Dark Dimmed";
   author = "Jimmy Lin";
   base00 = "1C2128";

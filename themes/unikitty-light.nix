@@ -1,4 +1,5 @@
 {
+  slug   = "themes/unikitty-light";
   name   = "Unikitty Light";
   author = "Josh W Lewis (@joshwlewis)";
   base00 = "FFFFFF";

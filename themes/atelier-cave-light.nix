@@ -1,4 +1,5 @@
 {
+  slug   = "themes/atelier-cave-light";
   name   = "Atelier Cave Light";
   author = "Bram de Haan (http://atelierbramdehaan.nl)";
   base00 = "EFECF4";

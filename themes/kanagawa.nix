@@ -1,4 +1,5 @@
 {
+  slug   = "themes/kanagawa";
   name   = "Kanagawa";
   author = "Tommaso Laurenzi (https://github.com/rebelot)";
   base00 = "1F1F28";

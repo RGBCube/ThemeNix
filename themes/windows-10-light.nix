@@ -1,4 +1,5 @@
 {
+  slug   = "themes/windows-10-light";
   name   = "Windows 10 Light";
   author = "Fergus Collins (https://github.com/C-Fergus)";
   base00 = "F2F2F2";

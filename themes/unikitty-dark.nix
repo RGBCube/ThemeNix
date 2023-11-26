@@ -1,4 +1,5 @@
 {
+  slug   = "themes/unikitty-dark";
   name   = "Unikitty Dark";
   author = "Josh W Lewis (@joshwlewis)";
   base00 = "2E2A31";

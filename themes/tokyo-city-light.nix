@@ -1,4 +1,5 @@
 {
+  slug   = "themes/tokyo-city-light";
   name   = "Tokyo City Light";
   author = "Michaël Ball";
   base00 = "FBFBFD";

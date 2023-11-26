@@ -1,4 +1,5 @@
 {
+  slug   = "themes/ayu-mirage";
   name   = "Ayu Mirage";
   author = "Khue Nguyen <Z5483Y@gmail.com>";
   base00 = "171B24";

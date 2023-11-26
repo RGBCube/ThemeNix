@@ -1,4 +1,5 @@
 {
+  slug   = "themes/stella";
   name   = "Stella";
   author = "Shrimpram";
   base00 = "2B213C";

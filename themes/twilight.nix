@@ -1,4 +1,5 @@
 {
+  slug   = "themes/twilight";
   name   = "Twilight";
   author = "David Hart (https://github.com/hartbit)";
   base00 = "1E1E1E";

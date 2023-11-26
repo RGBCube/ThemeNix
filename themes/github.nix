@@ -1,4 +1,5 @@
 {
+  slug   = "themes/github";
   name   = "Github";
   author = "Defman21";
   base00 = "FFFFFF";

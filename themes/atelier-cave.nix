@@ -1,4 +1,5 @@
 {
+  slug   = "themes/atelier-cave";
   name   = "Atelier Cave";
   author = "Bram de Haan (http://atelierbramdehaan.nl)";
   base00 = "19171C";

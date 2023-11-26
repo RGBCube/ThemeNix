@@ -1,4 +1,5 @@
 {
+  slug   = "themes/heetch-light";
   name   = "Heetch Light";
   author = "Geoffrey Teale (tealeg@gmail.com)";
   base00 = "FEFFFF";

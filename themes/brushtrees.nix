@@ -1,4 +1,5 @@
 {
+  slug   = "themes/brushtrees";
   name   = "Brush Trees";
   author = "Abraham White <abelincoln.white@gmail.com>";
   base00 = "E3EFEF";

@@ -1,4 +1,5 @@
 {
+  slug   = "themes/tokyodark";
   name   = "Tokyodark";
   author = "Tiagovla (https://github.com/tiagovla/)";
   base00 = "11121D";

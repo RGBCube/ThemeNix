@@ -1,4 +1,5 @@
 {
+  slug   = "themes/uwunicorn";
   name   = "UwUnicorn";
   author = "Fernando Marques (https://github.com/RakkiUwU) and Gabriel Fontes (https://github.com/Misterio77)";
   base00 = "241B26";

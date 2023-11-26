@@ -1,4 +1,5 @@
 {
+  slug   = "themes/icy";
   name   = "Icy Dark";
   author = "icyphox (https://icyphox.ga)";
   base00 = "021012";

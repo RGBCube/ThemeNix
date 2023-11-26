@@ -1,4 +1,5 @@
 {
+  slug   = "themes/onedark";
   name   = "OneDark";
   author = "Lalit Magant (http://github.com/tilal6991)";
   base00 = "282C34";

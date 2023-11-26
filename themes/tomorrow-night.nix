@@ -1,4 +1,5 @@
 {
+  slug   = "themes/tomorrow-night";
   name   = "Tomorrow Night";
   author = "Chris Kempson (http://chriskempson.com)";
   base00 = "1D1F21";

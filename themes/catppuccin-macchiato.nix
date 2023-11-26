@@ -1,4 +1,5 @@
 {
+  slug   = "themes/catppuccin-macchiato";
   name   = "Catppuccin Macchiato";
   author = "https://github.com/catppuccin/catppuccin";
   base00 = "24273A";

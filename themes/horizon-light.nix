@@ -1,4 +1,5 @@
 {
+  slug   = "themes/horizon-light";
   name   = "Horizon Light";
   author = "Michaël Ball (http://github.com/michael-ball/)";
   base00 = "FDF0ED";

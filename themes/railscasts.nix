@@ -1,4 +1,5 @@
 {
+  slug   = "themes/railscasts";
   name   = "Railscasts";
   author = "Ryan Bates (http://railscasts.com)";
   base00 = "2B2B2B";

@@ -1,4 +1,5 @@
 {
+  slug   = "themes/da-one-ocean";
   name   = "Da One Ocean";
   author = "NNB (https://github.com/NNBnh)";
   base00 = "171726";

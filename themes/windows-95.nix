@@ -1,4 +1,5 @@
 {
+  slug   = "themes/windows-95";
   name   = "Windows 95";
   author = "Fergus Collins (https://github.com/C-Fergus)";
   base00 = "000000";

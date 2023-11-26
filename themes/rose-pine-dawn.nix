@@ -1,4 +1,5 @@
 {
+  slug   = "themes/rose-pine-dawn";
   name   = "Rosé Pine Dawn";
   author = "Emilia Dunfelt <edun@dunfelt.se>";
   base00 = "FAF4ED";

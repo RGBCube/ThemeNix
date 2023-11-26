@@ -1,4 +1,5 @@
 {
+  slug   = "themes/isotope";
   name   = "Isotope";
   author = "Jan T. Sott";
   base00 = "000000";

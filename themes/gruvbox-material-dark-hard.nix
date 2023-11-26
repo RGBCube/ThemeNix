@@ -1,4 +1,5 @@
 {
+  slug   = "themes/gruvbox-material-dark-hard";
   name   = "Gruvbox Material Dark; Hard",
   author = "Mayush Kumar (https://github.com/MayushKumar); sainnhe (https://github.com/sainnhe/gruvbox-material-vscode)",
   base00 = "202020";

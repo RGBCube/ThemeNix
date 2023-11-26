@@ -1,4 +1,5 @@
 {
+  slug   = "themes/edge-dark";
   name   = "Edge Dark";
   author = "cjayross (https://github.com/cjayross)";
   base00 = "262729";

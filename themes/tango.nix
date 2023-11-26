@@ -1,4 +1,5 @@
 {
+  slug   = "themes/tango";
   name   = "Tango";
   author = "@Schnouki; based on the Tango Desktop Project",
   base00 = "2E3436";

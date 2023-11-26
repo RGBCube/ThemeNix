@@ -1,4 +1,5 @@
 {
+  slug   = "themes/eva-dim";
   name   = "Eva Dim";
   author = "kjakapat (https://github.com/kjakapat)";
   base00 = "2A3B4D";

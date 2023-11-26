@@ -1,4 +1,5 @@
 {
+  slug   = "themes/oceanicnext";
   name   = "OceanicNext";
   author = "https://github.com/voronianski/oceanic-next-color-name  ";
   base00 = "1B2B34";

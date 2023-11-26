@@ -1,4 +1,5 @@
 {
+  slug   = "themes/sandcastle";
   name   = "Sandcastle";
   author = "George Essig (https://github.com/gessig)";
   base00 = "282C34";
