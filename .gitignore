@@ -1,0 +1,10 @@
+*
+
+!themes/
+
+!.gitignore
+!flake.lock
+
+!*.md
+!*.nix
+!*.nu
