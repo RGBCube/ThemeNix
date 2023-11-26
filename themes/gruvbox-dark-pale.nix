@@ -1,7 +1,7 @@
 {
-  slug   = "themes/gruvbox-dark-pale";
-  name   = "Gruvbox dark; pale",
-  author = "Dawid Kurek (dawikur@gmail.com); morhetz (https://github.com/morhetz/gruvbox)",
+  slug   = "gruvbox-dark-pale";
+  name   = "Gruvbox dark; pale";
+  author = "Dawid Kurek (dawikur@gmail.com); morhetz (https://github.com/morhetz/gruvbox)";
   base00 = "262626";
   base01 = "3A3A3A";
   base02 = "4E4E4E";

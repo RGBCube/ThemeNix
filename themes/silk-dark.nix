@@ -1,5 +1,5 @@
 {
-  slug   = "themes/silk-dark";
+  slug   = "silk-dark";
   name   = "Silk Dark";
   author = "Gabriel Fontes (https://github.com/Misterio77)";
   base00 = "0E3C46";

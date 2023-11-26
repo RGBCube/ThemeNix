@@ -1,5 +1,5 @@
 {
-  slug   = "themes/danqing-light";
+  slug   = "danqing-light";
   name   = "DanQing Light";
   author = "Wenhan Zhu (Cosmos) (zhuwenhan950913@gmail.com)";
   base00 = "FCFEFD";

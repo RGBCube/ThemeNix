@@ -1,5 +1,5 @@
 {
-  slug   = "themes/zenbones";
+  slug   = "zenbones";
   name   = "Zenbones";
   author = "mcchrish";
   base00 = "191919";

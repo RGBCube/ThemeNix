@@ -1,5 +1,5 @@
 {
-  slug   = "themes/humanoid-dark";
+  slug   = "humanoid-dark";
   name   = "Humanoid dark";
   author = "Thomas (tasmo) Friese";
   base00 = "232629";

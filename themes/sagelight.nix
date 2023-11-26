@@ -1,5 +1,5 @@
 {
-  slug   = "themes/sagelight";
+  slug   = "sagelight";
   name   = "Sagelight";
   author = "Carter Veldhuizen";
   base00 = "F8F8F8";

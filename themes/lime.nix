@@ -1,5 +1,5 @@
 {
-  slug   = "themes/lime";
+  slug   = "lime";
   name   = "lime";
   author = "limelier";
   base00 = "1A1A2F";

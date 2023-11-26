@@ -1,5 +1,5 @@
 {
-  slug   = "themes/gigavolt";
+  slug   = "gigavolt";
   name   = "Gigavolt";
   author = "Aidan Swope (http://github.com/Whillikers)";
   base00 = "202126";

@@ -1,5 +1,5 @@
 {
-  slug   = "themes/solarized-dark";
+  slug   = "solarized-dark";
   name   = "Solarized Dark";
   author = "Ethan Schoonover (modified by aramisgithub)";
   base00 = "002B36";

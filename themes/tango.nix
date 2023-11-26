@@ -1,7 +1,7 @@
 {
-  slug   = "themes/tango";
+  slug   = "tango";
   name   = "Tango";
-  author = "@Schnouki; based on the Tango Desktop Project",
+  author = "@Schnouki; based on the Tango Desktop Project";
   base00 = "2E3436";
   base01 = "8AE234";
   base02 = "FCE94F";

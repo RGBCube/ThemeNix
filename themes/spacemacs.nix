@@ -1,5 +1,5 @@
 {
-  slug   = "themes/spacemacs";
+  slug   = "spacemacs";
   name   = "Spacemacs";
   author = "Nasser Alshammari (https://github.com/nashamri/spacemacs-theme)";
   base00 = "1F2022";

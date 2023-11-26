@@ -1,5 +1,5 @@
 {
-  slug   = "themes/ia-dark";
+  slug   = "ia-dark";
   name   = "iA Dark";
   author = "iA Inc. (modified by aramisgithub)";
   base00 = "1A1A1A";

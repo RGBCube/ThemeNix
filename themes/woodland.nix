@@ -1,5 +1,5 @@
 {
-  slug   = "themes/woodland";
+  slug   = "woodland";
   name   = "Woodland";
   author = "Jay Cornwall (https://jcornwall.com)";
   base00 = "231E18";

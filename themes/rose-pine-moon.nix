@@ -1,5 +1,5 @@
 {
-  slug   = "themes/rose-pine-moon";
+  slug   = "rose-pine-moon";
   name   = "Rosé Pine Moon";
   author = "Emilia Dunfelt <edun@dunfelt.se>";
   base00 = "232136";

@@ -28,7 +28,7 @@ def theme-to-nix [
       | str replace '"' ""
       | str replace '"' ""
       | str replace ":" " ="
-      | str replace "," ";"
+      | str replace --all "," ";"
     }
   }
   | append ""

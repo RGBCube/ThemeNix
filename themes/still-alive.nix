@@ -1,5 +1,5 @@
 {
-  slug   = "themes/still-alive";
+  slug   = "still-alive";
   name   = "Still Alive";
   author = "Derrick McKee (derrick.mckee@gmail.com)";
   base00 = "F0F0F0";

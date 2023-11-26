@@ -1,7 +1,7 @@
 {
-  slug   = "themes/spaceduck";
+  slug   = "spaceduck";
   name   = "Spaceduck";
-  author = "Guillermo Rodriguez (https://github.com/pineapplegiant); packaged by Gabriel Fontes (https://github.com/Misterio77)",
+  author = "Guillermo Rodriguez (https://github.com/pineapplegiant); packaged by Gabriel Fontes (https://github.com/Misterio77)";
   base00 = "16172D";
   base01 = "1B1C36";
   base02 = "30365F";

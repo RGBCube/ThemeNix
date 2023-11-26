@@ -1,5 +1,5 @@
 {
-  slug   = "themes/blueforest";
+  slug   = "blueforest";
   name   = "Blue Forest";
   author = "alonsodomin (https://github.com/alonsodomin)";
   base00 = "141F2E";

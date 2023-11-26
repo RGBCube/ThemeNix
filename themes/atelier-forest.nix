@@ -1,5 +1,5 @@
 {
-  slug   = "themes/atelier-forest";
+  slug   = "atelier-forest";
   name   = "Atelier Forest";
   author = "Bram de Haan (http://atelierbramdehaan.nl)";
   base00 = "1B1918";

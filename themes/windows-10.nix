@@ -1,5 +1,5 @@
 {
-  slug   = "themes/windows-10";
+  slug   = "windows-10";
   name   = "Windows 10";
   author = "Fergus Collins (https://github.com/C-Fergus)";
   base00 = "0C0C0C";

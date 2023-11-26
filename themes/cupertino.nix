@@ -1,5 +1,5 @@
 {
-  slug   = "themes/cupertino";
+  slug   = "cupertino";
   name   = "Cupertino";
   author = "Defman21";
   base00 = "FFFFFF";

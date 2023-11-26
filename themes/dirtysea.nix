@@ -1,5 +1,5 @@
 {
-  slug   = "themes/dirtysea";
+  slug   = "dirtysea";
   name   = "dirtysea";
   author = "Kahlil (Kal) Hodgson";
   base00 = "E0E0E0";

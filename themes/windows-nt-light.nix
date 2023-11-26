@@ -1,5 +1,5 @@
 {
-  slug   = "themes/windows-nt-light";
+  slug   = "windows-nt-light";
   name   = "Windows NT Light";
   author = "Fergus Collins (https://github.com/C-Fergus)";
   base00 = "FFFFFF";

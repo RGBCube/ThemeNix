@@ -1,5 +1,5 @@
 {
-  slug   = "themes/horizon-dark";
+  slug   = "horizon-dark";
   name   = "Horizon Dark";
   author = "Michaël Ball (http://github.com/michael-ball/)";
   base00 = "1C1E26";

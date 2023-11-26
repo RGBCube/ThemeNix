@@ -1,5 +1,5 @@
 {
-  slug   = "themes/vulcan";
+  slug   = "vulcan";
   name   = "vulcan";
   author = "Andrey Varfolomeev";
   base00 = "041523";

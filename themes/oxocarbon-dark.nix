@@ -1,5 +1,5 @@
 {
-  slug   = "themes/oxocarbon-dark";
+  slug   = "oxocarbon-dark";
   name   = "Oxocarbon Dark";
   author = "shaunsingh/IBM";
   base00 = "161616";

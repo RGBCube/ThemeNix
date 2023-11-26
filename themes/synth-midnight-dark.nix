@@ -1,5 +1,5 @@
 {
-  slug   = "themes/synth-midnight-dark";
+  slug   = "synth-midnight-dark";
   name   = "Synth Midnight Terminal Dark";
   author = "Michaël Ball (http://github.com/michael-ball/)";
   base00 = "050608";

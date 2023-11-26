@@ -1,5 +1,5 @@
 {
-  slug   = "themes/solarflare-light";
+  slug   = "solarflare-light";
   name   = "Solar Flare Light";
   author = "Chuck Harmston (https://chuck.harmston.ch)";
   base00 = "F5F7FA";

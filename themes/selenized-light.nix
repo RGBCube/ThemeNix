@@ -1,5 +1,5 @@
 {
-  slug   = "themes/selenized-light";
+  slug   = "selenized-light";
   name   = "selenized-light";
   author = "Jan Warchol (https://github.com/jan-warchol/selenized) / adapted to base16 by ali";
   base00 = "FBF3DB";

@@ -1,5 +1,5 @@
 {
-  slug   = "themes/embers";
+  slug   = "embers";
   name   = "Embers";
   author = "Jannik Siebert (https://github.com/janniks)";
   base00 = "16130F";

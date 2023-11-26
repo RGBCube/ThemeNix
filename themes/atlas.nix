@@ -1,5 +1,5 @@
 {
-  slug   = "themes/atlas";
+  slug   = "atlas";
   name   = "Atlas";
   author = "Alex Lende (https://ajlende.com)";
   base00 = "002635";

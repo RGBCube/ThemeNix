@@ -1,5 +1,5 @@
 {
-  slug   = "themes/bright";
+  slug   = "bright";
   name   = "Bright";
   author = "Chris Kempson (http://chriskempson.com)";
   base00 = "000000";

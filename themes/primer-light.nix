@@ -1,5 +1,5 @@
 {
-  slug   = "themes/primer-light";
+  slug   = "primer-light";
   name   = "Primer Light";
   author = "Jimmy Lin";
   base00 = "FAFBFC";

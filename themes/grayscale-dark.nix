@@ -1,5 +1,5 @@
 {
-  slug   = "themes/grayscale-dark";
+  slug   = "grayscale-dark";
   name   = "Grayscale Dark";
   author = "Alexandre Gavioli (https://github.com/Alexx2/)";
   base00 = "101010";

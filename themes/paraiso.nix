@@ -1,5 +1,5 @@
 {
-  slug   = "themes/paraiso";
+  slug   = "paraiso";
   name   = "Paraiso";
   author = "Jan T. Sott";
   base00 = "2F1E2E";

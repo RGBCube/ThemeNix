@@ -1,5 +1,5 @@
 {
-  slug   = "themes/ayu-light";
+  slug   = "ayu-light";
   name   = "Ayu Light";
   author = "Khue Nguyen <Z5483Y@gmail.com>";
   base00 = "FAFAFA";

@@ -1,5 +1,5 @@
 {
-  slug   = "themes/katy";
+  slug   = "katy";
   name   = "Katy";
   author = "George Essig (https://github.com/gessig)";
   base00 = "292D3E";

@@ -1,5 +1,5 @@
 {
-  slug   = "themes/decaf";
+  slug   = "decaf";
   name   = "Decaf";
   author = "Alex Mirrington (https://github.com/alexmirrington)";
   base00 = "2D2D2D";

@@ -1,5 +1,5 @@
 {
-  slug   = "themes/shadesmear-light";
+  slug   = "shadesmear-light";
   name   = "ShadeSmear Light";
   author = "Kyle Giammarco (http://kyle.giammar.co)";
   base00 = "DBDBDB";

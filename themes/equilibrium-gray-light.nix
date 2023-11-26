@@ -1,5 +1,5 @@
 {
-  slug   = "themes/equilibrium-gray-light";
+  slug   = "equilibrium-gray-light";
   name   = "Equilibrium Gray Light";
   author = "Carlo Abelli";
   base00 = "F1F1F1";

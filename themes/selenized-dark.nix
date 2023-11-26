@@ -1,5 +1,5 @@
 {
-  slug   = "themes/selenized-dark";
+  slug   = "selenized-dark";
   name   = "selenized-dark";
   author = "Jan Warchol (https://github.com/jan-warchol/selenized) / adapted to base16 by ali";
   base00 = "103C48";

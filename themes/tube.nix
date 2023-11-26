@@ -1,5 +1,5 @@
 {
-  slug   = "themes/tube";
+  slug   = "tube";
   name   = "London Tube";
   author = "Jan T. Sott";
   base00 = "231F20";

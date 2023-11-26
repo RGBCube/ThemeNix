@@ -1,5 +1,5 @@
 {
-  slug   = "themes/horizon-terminal-dark";
+  slug   = "horizon-terminal-dark";
   name   = "Horizon Terminal Dark";
   author = "Michaël Ball (http://github.com/michael-ball/)";
   base00 = "1C1E26";

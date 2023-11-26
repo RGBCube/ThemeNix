@@ -1,5 +1,5 @@
 {
-  slug   = "themes/xcode-dusk";
+  slug   = "xcode-dusk";
   name   = "XCode Dusk";
   author = "Elsa Gonsiorowski (https://github.com/gonsie)";
   base00 = "282B35";

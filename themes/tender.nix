@@ -1,5 +1,5 @@
 {
-  slug   = "themes/tender";
+  slug   = "tender";
   name   = "tender";
   author = "Jacobo Tabernero (https://github/com/jacoborus/tender.vim)";
   base00 = "282828";

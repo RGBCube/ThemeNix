@@ -1,5 +1,5 @@
 {
-  slug   = "themes/ashes";
+  slug   = "ashes";
   name   = "Ashes";
   author = "Jannik Siebert (https://github.com/janniks)";
   base00 = "1C2023";

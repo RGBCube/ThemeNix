@@ -1,5 +1,5 @@
 {
-  slug   = "themes/pico";
+  slug   = "pico";
   name   = "Pico";
   author = "PICO-8 (http://www.lexaloffle.com/pico-8.php)";
   base00 = "000000";

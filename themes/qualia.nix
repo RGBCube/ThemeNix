@@ -1,5 +1,5 @@
 {
-  slug   = "themes/qualia";
+  slug   = "qualia";
   name   = "Qualia";
   author = "isaacwhanson";
   base00 = "101010";

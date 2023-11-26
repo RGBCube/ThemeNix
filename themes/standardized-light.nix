@@ -1,5 +1,5 @@
 {
-  slug   = "themes/standardized-light";
+  slug   = "standardized-light";
   name   = "standardized-light";
   author = "ali (https://github.com/ali-githb/base16-standardized-name  )";
   base00 = "FFFFFF";

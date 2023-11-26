@@ -1,5 +1,5 @@
 {
-  slug   = "themes/eva";
+  slug   = "eva";
   name   = "Eva";
   author = "kjakapat (https://github.com/kjakapat)";
   base00 = "2A3B4D";

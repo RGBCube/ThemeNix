@@ -1,5 +1,5 @@
 {
-  slug   = "themes/black-metal-marduk";
+  slug   = "black-metal-marduk";
   name   = "Black Metal (Marduk)";
   author = "metalelf0 (https://github.com/metalelf0)";
   base00 = "000000";

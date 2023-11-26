@@ -1,5 +1,5 @@
 {
-  slug   = "themes/papercolor-dark";
+  slug   = "papercolor-dark";
   name   = "PaperColor Dark";
   author = "Jon Leopard (http://github.com/jonleopard) based on PaperColor Theme (https://github.com/NLKNguyen/papercolor-theme)";
   base00 = "1C1C1C";

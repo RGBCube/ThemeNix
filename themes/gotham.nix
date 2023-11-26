@@ -1,5 +1,5 @@
 {
-  slug   = "themes/gotham";
+  slug   = "gotham";
   name   = "Gotham";
   author = "Andrea Leopardi (arranged by Brett Jones)";
   base00 = "0C1014";

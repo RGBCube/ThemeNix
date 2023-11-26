@@ -1,5 +1,5 @@
 {
-  slug   = "themes/tomorrow";
+  slug   = "tomorrow";
   name   = "Tomorrow";
   author = "Chris Kempson (http://chriskempson.com)";
   base00 = "FFFFFF";

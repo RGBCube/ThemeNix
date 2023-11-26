@@ -1,5 +1,5 @@
 {
-  slug   = "themes/default-light";
+  slug   = "default-light";
   name   = "Default Light";
   author = "Chris Kempson (http://chriskempson.com)";
   base00 = "F8F8F8";

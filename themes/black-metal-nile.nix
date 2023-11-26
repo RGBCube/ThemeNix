@@ -1,5 +1,5 @@
 {
-  slug   = "themes/black-metal-nile";
+  slug   = "black-metal-nile";
   name   = "Black Metal (Nile)";
   author = "metalelf0 (https://github.com/metalelf0)";
   base00 = "000000";

@@ -1,5 +1,5 @@
 {
-  slug   = "themes/atelier-seaside";
+  slug   = "atelier-seaside";
   name   = "Atelier Seaside";
   author = "Bram de Haan (http://atelierbramdehaan.nl)";
   base00 = "131513";

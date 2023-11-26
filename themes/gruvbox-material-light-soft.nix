@@ -1,7 +1,7 @@
 {
-  slug   = "themes/gruvbox-material-light-soft";
-  name   = "Gruvbox Material Light; Soft",
-  author = "Mayush Kumar (https://github.com/MayushKumar); sainnhe (https://github.com/sainnhe/gruvbox-material-vscode)",
+  slug   = "gruvbox-material-light-soft";
+  name   = "Gruvbox Material Light; Soft";
+  author = "Mayush Kumar (https://github.com/MayushKumar); sainnhe (https://github.com/sainnhe/gruvbox-material-vscode)";
   base00 = "F2E5BC";
   base01 = "EBDBB2";
   base02 = "C9B99A";

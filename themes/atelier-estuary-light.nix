@@ -1,5 +1,5 @@
 {
-  slug   = "themes/atelier-estuary-light";
+  slug   = "atelier-estuary-light";
   name   = "Atelier Estuary Light";
   author = "Bram de Haan (http://atelierbramdehaan.nl)";
   base00 = "F4F3EC";

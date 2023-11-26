@@ -1,5 +1,5 @@
 {
-  slug   = "themes/material-palenight";
+  slug   = "material-palenight";
   name   = "Material Palenight";
   author = "Nate Peterson";
   base00 = "292D3E";

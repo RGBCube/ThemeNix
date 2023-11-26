@@ -1,5 +1,5 @@
 {
-  slug   = "themes/black-metal-gorgoroth";
+  slug   = "black-metal-gorgoroth";
   name   = "Black Metal (Gorgoroth)";
   author = "metalelf0 (https://github.com/metalelf0)";
   base00 = "000000";

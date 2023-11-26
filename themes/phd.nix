@@ -1,5 +1,5 @@
 {
-  slug   = "themes/phd";
+  slug   = "phd";
   name   = "PhD";
   author = "Hennig Hasemann (http://leetless.de/vim.html)";
   base00 = "061229";

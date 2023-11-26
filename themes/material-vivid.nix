@@ -1,5 +1,5 @@
 {
-  slug   = "themes/material-vivid";
+  slug   = "material-vivid";
   name   = "Material Vivid";
   author = "joshyrobot";
   base00 = "202124";

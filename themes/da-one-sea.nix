@@ -1,5 +1,5 @@
 {
-  slug   = "themes/da-one-sea";
+  slug   = "da-one-sea";
   name   = "Da One Sea";
   author = "NNB (https://github.com/NNBnh)";
   base00 = "22273D";

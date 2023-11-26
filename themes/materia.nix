@@ -1,5 +1,5 @@
 {
-  slug   = "themes/materia";
+  slug   = "materia";
   name   = "Materia";
   author = "Defman21";
   base00 = "263238";

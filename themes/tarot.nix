@@ -1,5 +1,5 @@
 {
-  slug   = "themes/tarot";
+  slug   = "tarot";
   name   = "tarot";
   author = "ed (https://codeberg.org/ed)";
   base00 = "0E091D";

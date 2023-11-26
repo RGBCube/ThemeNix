@@ -1,5 +1,5 @@
 {
-  slug   = "themes/black-metal-mayhem";
+  slug   = "black-metal-mayhem";
   name   = "Black Metal (Mayhem)";
   author = "metalelf0 (https://github.com/metalelf0)";
   base00 = "000000";

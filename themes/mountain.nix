@@ -1,5 +1,5 @@
 {
-  slug   = "themes/mountain";
+  slug   = "mountain";
   name   = "Mountain";
   author = "gnsfujiwara (https://github.com/gnsfujiwara)";
   base00 = "0F0F0F";

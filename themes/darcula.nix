@@ -1,5 +1,5 @@
 {
-  slug   = "themes/darcula";
+  slug   = "darcula";
   name   = "Darcula";
   author = "jetbrains";
   base00 = "2B2B2B";
