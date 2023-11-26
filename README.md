@@ -374,13 +374,21 @@ Here is a minimal usage example:
       modules = [
         homeManager.nixosModules.default
         {
-          home-manager.users.myuser.programs.kitty.settings = with theme.withHashtag; {
-            color0 = base00; # Could also be `background`.
-            color1 = base01;
-            # ...
-            color10 = baseA;
-            color11 = baseB;
-            # ...
+          home-manager.users.myuser = {
+            programs.kitty.settings = with theme.withHashtag; {
+              color0 = base00; # Could also be `background`.
+              color1 = base01;
+              # ...
+              color10 = baseA;
+              color11 = baseB;
+              # ...
+            };
+
+            # Using templates??? Wow, that's so cool!
+            programs.bat = {
+              config.theme = "tango";
+              themes.tango = theme.tmTheme;
+            };
           };
         }
       ];
