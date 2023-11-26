@@ -392,6 +392,7 @@ Here is a minimal usage example:
 ## Credits
 
 - Themes were taken from https://github.com/tinted-theming/base16-schemes.
+- The tmTheme template was taken from https://github.com/chriskempson/base16-textmate/blob/master/templates/default.mustache.
 
 ## License
 
