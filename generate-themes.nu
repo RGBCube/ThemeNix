@@ -40,7 +40,7 @@ def generate-valid-themes [] {
 
   ls themes
   | each { $in.name | str replace ".nix" "" }
-  | each { |it| '  "' + ($it | path basename) + '" = import "./' + $it + '.nix";' }
+  | each { |it| '  "' + ($it | path basename) + '" = import ./' + $it + ".nix;" }
   | prepend "{"
   | append "}\n"
   | str join "\n"
