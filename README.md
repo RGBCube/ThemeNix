@@ -286,8 +286,8 @@ You can use a template by doing `themes.gruvboxbox-dark-hard.<template-name>`.
 <summary>All templates</summary>
 
 ```
-tmTheme
 adwaitaGtkCss
+tmTheme
 ```
 </details>
 
@@ -362,6 +362,7 @@ Here is a minimal usage example:
 ## Credits
 
 - Themes were taken from https://github.com/tinted-theming/base16-schemes.
+- the adwaitaGtkCss template was taken from https://github.com/danth/stylix/blob/master/modules/gtk/gtk.mustache.
 - The tmTheme template was taken from https://github.com/chriskempson/base16-textmate/blob/master/templates/default.mustache.
 
 ## License
