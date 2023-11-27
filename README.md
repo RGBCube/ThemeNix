@@ -367,7 +367,7 @@ Here is a minimal usage example:
   };
 
   outputs = { nixpkgs, themes, ... }: let
-    theme = themes.gruvbox-dark-hard;
+    theme = themes.tango;
   in {
     nixosConfigurations.myhost = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
