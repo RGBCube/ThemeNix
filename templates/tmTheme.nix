@@ -8,7 +8,7 @@ theme: with theme.withHashtag; ''
 	<key>name</key>
 	<string>Base16 ${theme.name}</string>
 	<key>semanticClass</key>
-	<string>theme.base16.${theme.slug}</string>
+	<string>theme.base16.generated</string>
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>gutterSettings</key>
