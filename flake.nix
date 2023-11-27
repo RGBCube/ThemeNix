@@ -13,7 +13,7 @@
       };
     in themeFull // {
       tmTheme       = (import ./templates/tmTheme.nix) themeFull;
-      adwaitaGtkcss = (import ./templates/adwaitaGtkCss.nix) themeFull;
+      adwaitaGtkCss = (import ./templates/adwaitaGtkCss.nix) themeFull;
     };
   } // builtins.mapAttrs (name: self.custom) (import ./themes.nix);
 }
