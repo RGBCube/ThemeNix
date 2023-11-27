@@ -10,6 +10,19 @@ You don't need to pin anything since it doesn't depend on anything.
 Then you can use any theme you'd like by selecting an attribute, like `themes.gruvbox-dark-hard`.
 Then you can select a color by using base16 attributes, like `themes.gruvbox-dark-hard.base0A`, `base00`, `base06` etc.
 
+Or you can make your own theme:
+
+```nix
+let
+  myTheme = themes.custom {
+    name   = "My Awesome Theme";
+    author = "RGBCube";
+    base00 = "000000";
+    # ...
+  };
+in {}
+```
+
 <details>
 <summary>All themes</summary>
 
