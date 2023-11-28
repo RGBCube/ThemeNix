@@ -28,9 +28,9 @@ If you want to create your own theme based on an included theme, you can do this
 ```nix
 let
   myTheme = themes.custom (themes.raw.tango // {
-    base00 = "2E3436";
+    base00 = "2E3436";                # Overriding the background color...
     accent = themes.raw.tango.base0A; # Custom properties also work!
-  })
+  });
 in {}
 ```
 
