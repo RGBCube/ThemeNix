@@ -2,6 +2,8 @@
   description = "Theme your NixOS configuration consistently.";
 
   outputs = { self }: {
+    raw = import ./themes.nix;
+
     custom = theme: let
       onlyColors = builtins.removeAttrs theme [ "name" "author" ];
 
@@ -15,5 +17,5 @@
       tmTheme       = (import ./templates/tmTheme.nix) themeFull;
       adwaitaGtkCss = (import ./templates/adwaitaGtkCss.nix) themeFull;
     };
-  } // builtins.mapAttrs (name: self.custom) (import ./themes.nix);
+  } // builtins.mapAttrs (name: self.custom) self.raw;
 }

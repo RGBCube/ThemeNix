@@ -23,6 +23,17 @@ let
 in {}
 ```
 
+If you want to create your own theme based on an included theme, you can do this:
+
+```nix
+let
+  myTheme = themes.custom (themes.raw.tango // {
+    base00 = "2E3436";
+    accent = themes.raw.tango.base0A; # Custom properties also work!
+  })
+in {}
+```
+
 <details>
 <summary>All themes</summary>
 
