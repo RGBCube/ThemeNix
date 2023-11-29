@@ -1,6 +1,6 @@
 {
-  name   = "Gruvbox Material Dark; Soft";
-  author = "Mayush Kumar (https://github.com/MayushKumar); sainnhe (https://github.com/sainnhe/gruvbox-material-vscode)";
+  name   = "Gruvbox Material Dark, Soft";
+  author = "Mayush Kumar (https://github.com/MayushKumar), sainnhe (https://github.com/sainnhe/gruvbox-material-vscode)";
   base00 = "32302F";
   base01 = "3C3836";
   base02 = "5A524C";

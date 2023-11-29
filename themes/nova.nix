@@ -1,6 +1,6 @@
 {
   name   = "Nova";
-  author = "George Essig (https://github.com/gessig); Trevor D. Miller (https://trevordmiller.com)";
+  author = "George Essig (https://github.com/gessig), Trevor D. Miller (https://trevordmiller.com)";
   base00 = "3C4C55";
   base01 = "556873";
   base02 = "6A7D89";

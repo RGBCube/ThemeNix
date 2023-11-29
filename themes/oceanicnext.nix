@@ -1,6 +1,6 @@
 {
   name   = "OceanicNext";
-  author = "https://github.com/voronianski/oceanic-next-color-name  ";
+  author = "https://github.com/voronianski/oceanic-next-color-scheme";
   base00 = "1B2B34";
   base01 = "343D46";
   base02 = "4F5B66";

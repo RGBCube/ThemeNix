@@ -1,6 +1,6 @@
 {
-  name   = "Gruvbox light; soft";
-  author = "Dawid Kurek (dawikur@gmail.com); morhetz (https://github.com/morhetz/gruvbox)";
+  name   = "Gruvbox light, soft";
+  author = "Dawid Kurek (dawikur@gmail.com), morhetz (https://github.com/morhetz/gruvbox)";
   base00 = "F2E5BC";
   base01 = "EBDBB2";
   base02 = "D5C4A1";

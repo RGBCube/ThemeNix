@@ -4,33 +4,22 @@ def theme-to-nix [
   theme: record, # The theme to convert to Nix.
 ] {
   $theme
-  | to json
-  | lines
-  | each { |line|
-    if ($line | str trim | str starts-with '"base') {
-      let line_parts = $line
-                 | str replace '"' ""
-                 | str replace '"' ""
-                 | str replace "," ";"
-                 | split row ": "
-
-      let line = $line_parts.0 + " = " + ($line_parts.1 | str upcase)
-
-      if not ($line | str ends-with ";") {
-        $line + ";"
-      } else {
-        $line
-      }
-    } else {
-      $line
-      | str replace "scheme" "name  "
-      | str replace '"' ""
-      | str replace '"' ""
-      | str replace ":" " ="
-      | str replace --all "," ";"
+  | items { |key, value|
+    let key = match $key {
+      "scheme" => "name  "
+      _ => $key
     }
+
+    let value = if ($key | str starts-with "base0") {
+      $value | str upcase
+    } else {
+      $value
+    }
+
+    "  " + $key + ' = "' + $value + '";'
   }
-  | append ""
+  | prepend "{"
+  | append "}\n"
   | str join "\n"
 }
 
@@ -38,8 +27,7 @@ def generate-valid-themes [] {
   echo "generating themes.nix..."
 
   ls themes
-  | each { $in.name | str replace ".nix" "" }
-  | each { |it| '  "' + ($it | path basename) + '" = import ./' + $it + ".nix;" }
+  | each { |it| '  "' + ($it.name | path parse | get stem) + '" = import ./' + $it.name + ";" }
   | prepend "{"
   | append "}\n"
   | str join "\n"
@@ -57,14 +45,22 @@ def main [] {
     cd ..
   }
 
+  echo "deleting old themes..."
+  rm -rf themes
+  mkdir themes
+
   ls base16-schemes
-    | filter { ($in.name | str ends-with ".yml") or ($in.name | str ends-with ".yaml") }
+    | filter {
+      let extension = ($in.name | path parse | get extension)
+
+      $extension == "yml" or $extension == "yaml"
+    }
     | each { |it|
-      let new_path = "themes/" + ($it.name | path basename | split row "." | first) + ".nix"
+      let new_path = "themes/" + ($it.name | path parse | get stem) + ".nix"
 
       echo $"converting ($it.name) to ($new_path)..."
 
-      theme-to-nix (open $it.name) | save --force $new_path
+      theme-to-nix (open $it.name) | save $new_path
     }
 
   generate-valid-themes

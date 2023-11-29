@@ -1,6 +1,6 @@
 {
   name   = "Gruber";
-  author = "Patel; Nimai <nimai.m.patel@gmail.com>; colors from www.github.com/rexim/gruber-darker-theme";
+  author = "Patel, Nimai <nimai.m.patel@gmail.com>, colors from www.github.com/rexim/gruber-darker-theme";
   base00 = "181818";
   base01 = "453D41";
   base02 = "484848";

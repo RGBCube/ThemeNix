@@ -1,6 +1,6 @@
 {
   name   = "standardized-dark";
-  author = "ali (https://github.com/ali-githb/base16-standardized-name  )";
+  author = "ali (https://github.com/ali-githb/base16-standardized-scheme)";
   base00 = "222222";
   base01 = "303030";
   base02 = "555555";
