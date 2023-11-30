@@ -3,14 +3,17 @@
 
   outputs = { self }: let
     raw = import ./themes.nix;
+
+    isValidColor = thing: if builtins.isString thing then
+      (builtins.match "^[0-9a-fA-F]{6}" thing) != null
+    else
+      false;
   in {
     inherit raw;
 
     custom = theme: let
-      onlyColors = builtins.removeAttrs theme [ "name" "author" ];
-
-      with0x      = theme // (builtins.mapAttrs (_: value: "0x" + value) onlyColors);
-      withHashtag = theme // (builtins.mapAttrs (_: value: "#" + value)  onlyColors);
+      with0x      = theme // (builtins.mapAttrs (_: value: if isValidColor value then "0x" + value else value) theme);
+      withHashtag = theme // (builtins.mapAttrs (_: value: if isValidColor value then "#" + value else value)  theme);
 
       themeFull = theme // {
         inherit with0x withHashtag;
