@@ -314,6 +314,7 @@ There are instructions on how to use these in the file they are located. Check `
 ```
 adwaitaGtkCss
 discordCss
+firefoxTheme
 tmTheme
 ```
 </details>

@@ -21,6 +21,7 @@
     in themeFull // {
       adwaitaGtkCss = (import ./templates/adwaitaGtkCss.nix) themeFull;
       discordCss    = (import ./templates/discordCss.nix)    themeFull;
+      firefoxTheme  = (import ./templates/firefoxTheme.nix)  themeFull;
       tmTheme       = (import ./templates/tmTheme.nix)       themeFull;
     };
   } // builtins.mapAttrs (name: self.custom) raw;
