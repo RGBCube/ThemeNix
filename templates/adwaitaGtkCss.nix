@@ -1,3 +1,9 @@
+# With Home Manager, do:
+#
+# xdg.configFile = {
+#   "gtk-3.0/gtk.css".text = myTheme.adwaitaGtkCss;
+#   "gtk-4.0/gtk.css".text = myTheme.adwaitaGtkCss;
+# };
 theme: with theme.withHashtag; ''
 @define-color accent_color ${base0A};
 @define-color accent_bg_color ${base0A};
