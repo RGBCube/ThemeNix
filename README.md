@@ -389,7 +389,8 @@ Here is a minimal usage example:
 ## Credits
 
 - Themes were taken from https://github.com/tinted-theming/base16-schemes.
-- the adwaitaGtkCss template was taken from https://github.com/danth/stylix/blob/master/modules/gtk/gtk.mustache.
+- The adwaitaGtkCss template was taken from https://github.com/danth/stylix/blob/master/modules/gtk/gtk.mustache.
+- The discordCss template was taken from https://gist.github.com/emctague/aab1d43a90174930939ae51c8db09553.
 - The tmTheme template was taken from https://github.com/chriskempson/base16-textmate/blob/master/templates/default.mustache.
 
 ## License
