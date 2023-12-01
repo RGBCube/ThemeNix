@@ -1,6 +1,6 @@
 # With Home Manager, set `xdg.configFile."Vencord/settings/quickCss.css"` to this:
 #
-# xdg.configFile."Vencord/settings/quickCss.css" = myTheme.discordCss;
+# xdg.configFile."Vencord/settings/quickCss.css".text = myTheme.discordCss;
 #
 # These instructions only work for Vencord.
 # Consult your client mods docs if you don't use Vencord.
