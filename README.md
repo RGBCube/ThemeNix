@@ -306,11 +306,14 @@ in {}
 Themes also have templates, which generate templates with the color scheme.
 You can use a template by doing `themes.gruvboxbox-dark-hard.<template-name>`.
 
+There are instructions on how to use these in the file they are located. Check `templates/<template>.nix`
+
 <details>
 <summary>All templates</summary>
 
 ```
 adwaitaGtkCss
+discordCss
 tmTheme
 ```
 </details>

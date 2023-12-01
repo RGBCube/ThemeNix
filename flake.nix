@@ -19,8 +19,9 @@
         inherit with0x withHashtag;
       };
     in themeFull // {
-      tmTheme       = (import ./templates/tmTheme.nix) themeFull;
       adwaitaGtkCss = (import ./templates/adwaitaGtkCss.nix) themeFull;
+      discordCss    = (import ./templates/discordCss.nix)    themeFull;
+      tmTheme       = (import ./templates/tmTheme.nix)       themeFull;
     };
   } // builtins.mapAttrs (name: self.custom) raw;
 }
