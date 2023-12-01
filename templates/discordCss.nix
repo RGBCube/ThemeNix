@@ -7,13 +7,13 @@
 theme: with theme.withHashtag; ''
 :root {
   --background-primary: ${base00};
-  --background-secondary: ${base00};
-  --background-tertiary: ${base00};
+  --background-secondary: ${base01};
+  --background-tertiary: ${base02};
   --channels-default: ${base0D};
   --channeltextarea-background: ${base01};
   --deprecated-panel-background: ${base00};
-  --interactive-normal: ${base06};
-  --text-normal: ${base06};
+  --interactive-normal: ${base05};
+  --text-normal: ${base05};
 }
 
 .da-autocomplete,
@@ -49,7 +49,8 @@ theme: with theme.withHashtag; ''
 
 .da-addButtonIcon,
 .theme-dark,
-.ui-tab-bar-header {
+.ui-tab-bar-header,
+div[style*="color: rgb(114, 137, 218);"] {
   color: var(--channels-default) !important;
 }
 
