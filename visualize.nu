@@ -15,18 +15,11 @@ def main [
 
   $theme
   | reject name author
-  | transpose name value
+  | transpose key value
   | each { |it|
-    let hex = ("0x" + $in.value) | into int
+    let color = { bg: ("#" + $it.value) }
 
-    let r = $hex bit-shr 16
-    let g = $hex bit-shr 8 bit-and 0xFF
-    let b = $hex bit-and 0xFF
-
-    $it | merge { value: $"\\033[48;2;($r);($g);($b)m" }
-  }
-  | each { |it|
-    ^echo -e $"($it.name): ($it.value)          \\033[0m"
+    echo $"($it.key): (ansi $color)          (ansi reset)"
   }
 
   $"\n($theme.name) by ($theme.author)"
