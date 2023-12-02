@@ -34,6 +34,12 @@ let
 in {}
 ```
 
+You can also use the `visualize.nu` script to visualize any theme in the terminal:
+
+```nu
+./visualize.nu themes/chalk.nix
+```
+
 <details>
 <summary>All themes</summary>
 

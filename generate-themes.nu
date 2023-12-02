@@ -2,7 +2,7 @@
 
 def theme-to-nix [
   theme: record, # The theme to convert to Nix.
-] {
+] -> nothing {
   $theme
   | items { |key, value|
     let key = match $key {
