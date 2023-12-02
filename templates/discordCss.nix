@@ -18,12 +18,11 @@ theme: with theme.withHashtag; ''
 
 .da-autocomplete,
 .da-autocompleteHeaderBackground
-.da-container,
 .da-footer,
 .da-friendsTable,
 .da-friendsTableHeader,
 .da-header,
-.da-popouts,
+.da-popouts .da-container,
 .da-systemPad,
 .da-themedPopout,
 .da-userPopout > * {
@@ -31,59 +30,44 @@ theme: with theme.withHashtag; ''
   border-color: transparent !important;
 }
 
-.theme-dark,
-.da-messageGroupWrapper {
+.theme-dark .da-messageGroupWrapper {
   background-color: var(--background-tertiary) !important;
   border-color: transparent;
 }
 
-.theme-dark,
-.da-option:after {
+.theme-dark .da-option:after {
   background-image: none !important;
 }
 
-.theme-dark,
-.ui-tab-bar-item {
-  color: var(--interactive-normal);
+.theme-dark .ui-tab-bar-item {
+    color: var(--interactive-normal);
 }
 
-.da-addButtonIcon,
-.theme-dark,
-.ui-tab-bar-header,
-div[style*="color: rgb(114, 137, 218);"] {
-  color: var(--channels-default) !important;
+.theme-dark .ui-tab-bar-header,
+div[style*="color: rgb(114, 137, 218);"] .da-addButtonIcon  {
+    color: var(--channels-default) !important;
 }
 
-.da-autocompleteRow,
-.da-selectorSelected,
-.theme-dark,
-.theme-dark,
-.ui-tab-bar-item.selected {
-  background-color: var(--background-modifier-selected);
-  color: var(--interactive-active);
+.theme-dark .da-autocompleteRow .da-selectorSelected
+.theme-dark .ui-tab-bar-item.selected {
+    background-color: var(--background-modifier-selected);
+    color: var(--interactive-active);
 }
 
-.da-contents,
-.da-emojiButtonNormal,
-.da-sprite {
-  filter: sepia(1) !important;
+.da-emojiButtonNormal .da-contents .da-sprite {
+    filter: sepia(1) !important;
 }
 
-
-.da-messagesWrapper,
-.da-messagesWrapper,
-.da-scroller::-webkit-scrollbar,
-.da-scroller::-webkit-scrollbar-track-piece {
-  background-color: var(--background-tertiary) !important;
-  border-color: rgba(0,0,0,0) !important;
+.da-messagesWrapper .da-scroller::-webkit-scrollbar,
+.da-messagesWrapper .da-scroller::-webkit-scrollbar-track-piece {
+    background-color: var(--background-tertiary) !important;
+    border-color: ${base00} !important;
 }
 
-.da-scroller::-webkit-scrollbar-thumb,
-.da-scroller::-webkit-scrollbar-thumb,
-.da-scrollerThemed,
-.da-scrollerWrap {
-  background-color: var(--background-secondary) !important;
-  border-color: var(--background-tertiary) !important;
+.da-scrollerThemed .da-scroller::-webkit-scrollbar-thumb,
+.da-scrollerWrap .da-scroller::-webkit-scrollbar-thumb {
+    background-color: var(--background-secondary) !important;
+    border-color: var(--background-tertiary) !important;
 }
 
 .hljs-deletion,
@@ -140,8 +124,7 @@ div[style*="color: rgb(114, 137, 218);"] {
 .hljs-bullet,
 .hljs-class,
 .hljs-function,
-.hljs-function,
-.hljs-keyword,
+.hljs-function .hljs-keyword,
 .hljs-meta-keyword,
 .hljs-selector-pseudo,
 .hljs-tag {
