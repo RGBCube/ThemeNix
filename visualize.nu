@@ -16,7 +16,7 @@ def main [
   $theme
   | reject name author
   | transpose key value
-  | each { |it|
+  | each {|it|
     let color = { bg: ("#" + $it.value) }
 
     echo $"($it.key): (ansi $color)          (ansi reset)"
