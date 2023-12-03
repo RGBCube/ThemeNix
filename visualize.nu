@@ -2,8 +2,8 @@
 
 # Visualizes a theme in the terminal.
 def main [
-  theme: string, # The path to the theme to visualize.
-] -> nothing {
+  theme: string@"ls themes" # The path to the theme to visualize.
+] {
   if not ($env.COLORTERM | str contains "truecolor") {
     echo "your terminal emulator doesn't support truecolor, colors may be wrong\n"
   }

@@ -1,8 +1,8 @@
 #!/usr/bin/env nu
 
 def theme-to-nix [
-  theme: record, # The theme to convert to Nix.
-] -> nothing {
+  theme: record # The theme to convert to Nix.
+] {
   $theme
   | items { |key, value|
     let key = match $key {
