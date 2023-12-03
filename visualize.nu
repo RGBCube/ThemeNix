@@ -1,8 +1,12 @@
 #!/usr/bin/env nu
 
+def complete [] {
+  ls themes
+}
+
 # Visualizes a theme in the terminal.
 def main [
-  theme: string@"ls themes" # The path to the theme to visualize.
+  theme: string@complete # The path to the theme to visualize.
 ] {
   if not ($env.COLORTERM | str contains "truecolor") {
     echo "your terminal emulator doesn't support truecolor, colors may be wrong\n"
