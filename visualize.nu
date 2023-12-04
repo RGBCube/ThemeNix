@@ -21,9 +21,10 @@ def main [
   | reject name author
   | transpose key value
   | each {|it|
-    let color = { bg: ("#" + $it.value) }
+    let color_hex = "#" + $it.value
+    let color = { bg: $color_hex }
 
-    echo $"($it.key): (ansi $color)          (ansi reset)"
+    echo $"($it.key) ($color_hex): (ansi $color)          (ansi reset)"
   }
 
   $"\n($theme.name) by ($theme.author)"
