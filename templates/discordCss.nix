@@ -7,10 +7,10 @@
 theme: with theme.withHashtag; ''
 :root {
   --background-primary: ${base00};
-  --background-secondary: ${base01};
-  --background-tertiary: ${base02};
+  --background-secondary: ${base00};
+  --background-tertiary: ${base01};
   --channels-default: ${base0D};
-  --channeltextarea-background: ${base01};
+  --channeltextarea-background: ${base00};
   --deprecated-panel-background: ${base00};
   --interactive-normal: ${base05};
   --text-normal: ${base05};
