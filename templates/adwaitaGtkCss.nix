@@ -1,7 +1,7 @@
 # With Home Manager, do:
 #
-# gtk.gtk3.extraCss = upkgs.theme.adwaitaGtkCss;
-# gtk.gtk4.extraCss = upkgs.theme.adwaitaGtkCss;
+# gtk.gtk3.extraCss = myTheme.adwaitaGtkCss;
+# gtk.gtk4.extraCss = myTheme.adwaitaGtkCss;
 theme: with theme.withHashtag; ''
 @define-color accent_color ${base0A};
 @define-color accent_bg_color ${base0A};
