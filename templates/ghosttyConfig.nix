@@ -1,7 +1,7 @@
 # With https://github.com/clo4/ghostty-hm-module, do:
 #
 # programs.ghostty.settings.config-file = [
-#   (pkgs.writeText "base16-theme" myTheme.ghosttyConfig)
+#   (toString (pkgs.writeText "base16-theme" myTheme.ghosttyConfig))
 # ];
 theme: with theme.withHashtag; ''
 palette = 0=${base00}
