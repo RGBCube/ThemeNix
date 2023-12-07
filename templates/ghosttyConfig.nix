@@ -4,6 +4,12 @@
 #   (toString (pkgs.writeText "base16-theme" myTheme.ghosttyConfig))
 # ];
 theme: with theme.withHashtag; ''
+background = ${base00}
+foreground = ${base05}
+
+selection-background = ${base02}
+selection-foreground = ${base00}
+
 palette = 0=${base00}
 palette = 1=${base08}
 palette = 2=${base0B}
