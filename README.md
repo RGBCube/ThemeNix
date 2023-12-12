@@ -348,6 +348,7 @@ Here is a minimal usage example:
   };
 
   outputs = { nixpkgs, themes, ... }: let
+    pkgs = import nixpkgs { system = "x86_64-linux"; };
     theme = themes.tango;
   in {
     nixosConfigurations.myhost = nixpkgs.lib.nixosSystem {
@@ -383,8 +384,8 @@ Here is a minimal usage example:
 
             # Using templates??? Wow, that's so cool!
             programs.bat = {
-              config.theme = "tango";
-              themes.tango = theme.tmTheme;
+              config.theme = "base16";
+              themes.base16.src = pkgs.writeText "base16.tmTheme" theme.tmTheme;
             };
           };
         }
