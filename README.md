@@ -319,6 +319,7 @@ There are instructions on how to use these in the file they are located. Check `
 
 ```
 adwaitaGtkCss
+btopTheme
 discordCss
 firefoxTheme
 ghosttyConfig
@@ -399,6 +400,7 @@ Here is a minimal usage example:
 
 - Themes were taken from https://github.com/tinted-theming/base16-schemes.
 - The adwaitaGtkCss template was taken from https://github.com/danth/stylix/blob/master/modules/gtk/gtk.mustache.
+- The btopTheme template was taken from https://github.com/dark-beep-boop/base16-bpytop.
 - The discordCss template was taken from https://gist.github.com/emctague/aab1d43a90174930939ae51c8db09553.
 - The tmTheme template was taken from https://github.com/chriskempson/base16-textmate/blob/master/templates/default.mustache.
 

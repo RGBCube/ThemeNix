@@ -20,6 +20,7 @@
       };
     in themeFull // {
       adwaitaGtkCss = (import ./templates/adwaitaGtkCss.nix) themeFull;
+      btopTheme     = (import ./templates/btopTheme.nix)     themeFull;
       discordCss    = (import ./templates/discordCss.nix)    themeFull;
       firefoxTheme  = (import ./templates/firefoxTheme.nix)  themeFull;
       ghosttyConfig = (import ./templates/ghosttyConfig.nix) themeFull;

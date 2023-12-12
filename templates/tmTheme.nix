@@ -4,9 +4,9 @@ theme: with theme.withHashtag; ''
 <plist version="1.0">
 <dict>
 	<key>author</key>
-	<string>Template: Chris Kempson, Scheme: ${theme.author}</string>
+	<string>Template: Chris Kempson, Scheme: ${author}</string>
 	<key>name</key>
-	<string>Base16 ${theme.name}</string>
+	<string>Base16 ${name}</string>
 	<key>semanticClass</key>
 	<string>theme.base16.generated</string>
 	<key>colorSpaceName</key>
