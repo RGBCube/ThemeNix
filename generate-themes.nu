@@ -50,18 +50,18 @@ def main [] {
   mkdir themes
 
   ls base16-schemes
-    | filter {
-      let extension = ($in.name | path parse | get extension)
+  | filter {
+    let extension = ($in.name | path parse | get extension)
 
-      $extension == "yml" or $extension == "yaml"
-    }
-    | each { |it|
-      let new_path = "themes/" + ($it.name | path parse | get stem) + ".nix"
+    $extension == "yml" or $extension == "yaml"
+  }
+  | each { |it|
+    let new_path = "themes/" + ($it.name | path parse | get stem) + ".nix"
 
-      echo $"converting ($it.name) to ($new_path)..."
+    echo $"converting ($it.name) to ($new_path)..."
 
-      theme-to-nix (open $it.name) | save $new_path
-    }
+    theme-to-nix (open $it.name) | save $new_path
+  }
 
   generate-valid-themes
 }
