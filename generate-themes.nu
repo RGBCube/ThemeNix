@@ -24,7 +24,7 @@ def theme-to-nix [
 }
 
 def generate-valid-themes [] {
-  echo "generating themes.nix..."
+  print "generating themes.nix..."
 
   ls themes
   | each { |it| '  "' + ($it.name | path parse | get stem) + '" = import ./' + $it.name + ";" }
@@ -36,16 +36,16 @@ def generate-valid-themes [] {
 
 def main [] {
   if not ("base16-schemes" | path exists) {
-    echo "base16-schemes doesn't exist, cloning..."
+    print "base16-schemes doesn't exist, cloning..."
     git clone https://github.com/tinted-theming/base16-schemes
   } else {
-    echo "base16-schemes exists, updating"
+    print "base16-schemes exists, updating"
     cd base16-schemes
     git pull
     cd ..
   }
 
-  echo "deleting old themes..."
+  print "deleting old themes..."
   rm -rf themes
   mkdir themes
 
@@ -58,7 +58,7 @@ def main [] {
   | each { |it|
     let new_path = "themes/" + ($it.name | path parse | get stem) + ".nix"
 
-    echo $"converting ($it.name) to ($new_path)..."
+    print $"converting ($it.name) to ($new_path)..."
 
     theme-to-nix (open $it.name) | save $new_path
   }
