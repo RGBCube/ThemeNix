@@ -15,19 +15,19 @@ theme[selected_bg]="${base01}"
 
 theme[selected_fg]="${base06}"
 
-theme[inactive_fg]="${base0E}"
+theme[inactive_fg]="${base03}"
 
 theme[proc_misc]="${base0B}"
 
-theme[cpu_box]="${base0E}"
+theme[cpu_box]="${base03}"
 
-theme[mem_box]="${base0E}"
+theme[mem_box]="${base03}"
 
-theme[net_box]="${base0E}"
+theme[net_box]="${base03}"
 
-theme[proc_box]="${base0E}"
+theme[proc_box]="${base03}"
 
-theme[div_line]="${base0E}"
+theme[div_line]="${base03}"
 
 theme[temp_start]="${base0C}"
 theme[temp_mid]="${base0A}"
